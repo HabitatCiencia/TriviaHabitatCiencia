@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Quiz</title>
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  <!-- css style -->
+  <link rel="stylesheet" href="css/styles.css">
+  <!-- fonts google -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700;900&family=Ubuntu:wght@300;500&display=swap" rel="stylesheet">
+  <!-- fonts awesome -->
+  <script defer src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"></script>
+  <script defer src="script.js"></script>
+
+</head>
+
+<body>
+
+  <!-- Features -->
+
+  <section class="white-section" id="features">
+    <div class="container-navbar-category">
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <img class="logo" src="images/HabitatCiencia.png" alt="Logo">
+          <a id="navbar-brand-category">Elige una categoría...</a>
+           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span id="toggler-category"class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                  <a class="nav-link-coloured"><input id="Team1" type="text" class="input-team" value=""><button id="score1" class="btn btn-score">0</button></a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link-coloured"><input id="Team2" type="text" class="input-team" value=""><button id="score2" class="btn btn-score">0</button></a>
+              </li>
+          </ul>
+       </div>
+      </nav>
+      <button id="new-round-btn" class="btn-question hide">Fin de la ronda   <i class="fas fa-flag-checkered"></i></button>
+
+    </div>
+
+    <div id="categoryArea" class="row">
+      <div class="col-lg-3 column-feature">
+        <i class="fas fa-book-open icon-feature"></i>
+        <h3 class="feature-title">General</h3>
+        <button id="easy-General" class="start-btn btn">Amateur</button><button id="medium-General" class="start-btn btn">Científico</button><button id="hard-General" class="start-btn btn">Dios</button>
+        <p>Lo que toda persona informada debería saber.</p>
+      </div>
+
+      <div class="col-lg-3 column-feature">
+        <i class="far fa-newspaper icon-feature"></i>
+        <h3 class="feature-title">Publicaciones</h3>
+        <button id="easy-Publications" class="start-btn btn">Amateur</button><button id="medium-Publications" class="start-btn btn">Científico</button><button id="hard-Publications" class="start-btn btn">Dios</button>
+        <p>Ventaja para nuestros seguidores en redes sociales.</p>
+      </div>
+
+      <div class="col-lg-3 column-feature">
+        <i class="fas fa-flask icon-feature"></i>
+        <h3 class="feature-title">Química</h3>
+        <button id="easy-Chemistry" class="start-btn btn">Amateur</button><button id="medium-Chemistry" class="start-btn btn">Científico</button><button id="hard-Chemistry" class="start-btn btn">Dios</button>
+        <p>Science, bitch.</p>
+      </div>
+
+      <div class="col-lg-3 column-feature">
+        <i class="fas fa-dna icon-feature"></i>
+        <h3 class="feature-title">Biología</h3>
+        <button id="easy-Biology" class="start-btn btn">Amateur</button><button id="medium-Biology" class="start-btn btn">Científico</button><button id="hard-Biology" class="start-btn btn">Dios</button>
+        <p>Checa qué tan evolucionado estás.</p>
+      </div>
+
+      <div class="col-lg-3 column-feature">
+        <i class="fas fa-atom icon-feature"></i>
+        <h3 class="feature-title">Física</h3>
+        <button id="easy-Physics" class="start-btn btn">Amateur</button><button id="medium-Physics" class="start-btn btn">Científico</button><button id="hard-Physics" class="start-btn btn">Dios</button>
+        <p>Estudiemos la gravedad de la ignorancia.</p>
+      </div>
+
+      <div class="col-lg-3 column-feature">
+        <i class="fas fa-infinity icon-feature"></i>
+        <h3 class="feature-title">Matemáticas</h3>
+        <button id="easy-Math" class="start-btn btn">Amateur</button><button id="medium-Math" class="start-btn btn">Científico</button><button id="hard-Math" class="start-btn btn">Dios</button>
+        <p>¿Cuál es el límite de tus conocimientos?</p>
+      </div>
+
+      <div class="col-lg-3 column-feature">
+        <i class="fas fa-stethoscope icon-feature"></i>
+        <h3 class="feature-title">Medicina</h3>
+        <button id="easy-Medicine" class="start-btn btn">Amateur</button><button id="medium-Medicine" class="start-btn btn">Científico</button><button id="hard-Medicine" class="start-btn btn">Dios</button>
+        <p>El apellido Grey, ¿lo relacionas con Medicina u otra cosa?</p>
+      </div>
+
+      <div class="col-lg-3 column-feature">
+        <i class="fas fa-globe-americas icon-feature"></i>
+        <h3 class="feature-title">Geografía</h3>
+        <button id="easy-Geography" class="start-btn btn">Amateur</button><button id="medium-Geography" class="start-btn btn">Científico</button><button id="hard-Geography" class="start-btn btn">Dios</button>
+        <p>¿Eres de los que creen que la Tierra es plana?</p>
+      </div>
+
+    </div>
+  </section>
+  <section id="quizArea" class="hide">
+    <div id="question-container">
+      <div class="row row-question">
+        <div class="col-lg-4">
+        </div>
+        <div class="col-lg-4">
+          <button id="clock" class="btn"><i class="fas fa-stopwatch"></i></button>
+          <div id="Timer" class="hide">25</div>
+        </div>
+        <div class="col-lg-4">
+          <ul class="navbar-nav ml-auto">
+              <li class="nav-item-question">
+                  <a class="nav-link-coloured"><input id="Team1r" type="text" class="input-team" value=""><button id="score1r" class="btn btn-score">0</button></a>
+              </li>
+              <li class="nav-item-question">
+                  <a class="nav-link-coloured"><input id="Team2r" type="text" class="input-team" value=""><button id="score2r" class="btn btn-score">0</button></a>
+              </li>
+          </ul>
+        </div>
+
+      </div>
+      <div id="question">Question</div>
+      <div id="answer-buttons" class="btn-grid">
+        <button class="btn-question">Answer 1</button>
+        <button class="btn-question">Answer 2</button>
+        <button class="btn-question">Answer 3</button>
+        <button class="btn-question">Answer 4</button>
+      </div>
+      <div class="controls">
+        <button id="restart-btn" class="restart-btn btn-question hide">Restart</button>
+        <button id="next-btn" class="next-btn btn-question hide">Siguiente</button>
+      </div>
+  </section>
+
+</body>
+
+</html>

@@ -1,0 +1,262 @@
+/* Paleta de colores:
+white,#6BA9DD,#9AD043,#DD873C,#F153B2
+ */
+
+/* HTML stuff */
+body{
+  font-family:'Montserrat', sans-serif;
+  font-weight: 500;
+  text-align: center;
+}
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+p{
+  color: black;
+  padding: 0% 5% 0%;
+  font-weight: bold;
+}
+input[type=text]{
+  border-radius: 5px;
+  font-family: 'Montserrat';
+  align-items: center;
+  margin-right: 5px;
+  text-align: center;
+
+}
+textarea{
+  justify: center;
+}
+.logo{
+  height: 200px;
+  width: 200px;
+}
+
+/* Containers */
+.container-fluid{
+  padding: 0% 15%;
+}
+.container-navbar{
+  padding: 2% 10% 0%;
+}
+.container-navbar-category{
+  padding: 0%;
+  margin:0%;
+}
+.colored-section{
+  background-color: #6BA9DD;
+  color: white;
+}
+.white-section{
+  background-color: white;
+  color:#6BA9DD;
+}
+
+/* Headings */
+.big-heading{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 2.5rem;
+  padding-top: 4.5%;
+}
+.section-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Nav Bar */
+.navbar{
+  padding:0 3rem .7rem 0;
+}
+
+.navbar-brand{
+  font-family: 'Ubuntu',sans-serif;
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+#navbar-brand-category{
+  font-family: 'Ubuntu',sans-serif;
+  font-size: 3rem;
+  font-weight: 500;
+  color: #3b60e9;
+}
+#toggler-category{
+  background-color:#6BA9DD;
+}
+
+.nav-item{
+  padding: 0 16px;
+}
+
+.nav-item-question{
+  padding: 0 0 20px;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-family: 'Montserrat',sans-serif;
+  font-weight: 300;
+}
+.nav-link-coloured{
+  font-size: 1.2rem;
+  font-family: 'Montserrat',sans-serif;
+  font-weight: 300;
+}
+
+/* Title */
+
+.start-button{
+  margin:10% 3% 5% 0;
+  text-align:center;
+}
+
+.icon-feature{
+  color: #ef8172;
+  font-size: 4.5rem;
+  padding: 0%;
+  margin-bottom: 10px;
+}
+.icon-feature:hover{
+  color:#ff4c68;
+}
+
+#clock{
+  font-size: 5rem;
+  padding-top: 20px;
+}
+#Timer{
+  padding-top: 20px;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+/* Features */
+#features{
+  width: 100vw;
+  height: 100vh;
+  padding: 0% 3% 0%;
+  margin: 0%;
+  position: relative;
+  z-index: 1;
+}
+.feature-title{
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+.column-feature{
+  padding: 2% 0% 0%;
+}
+
+/* Footer */
+#footer{
+  padding: 1.5% 15% 0%;
+}
+.icon-app{
+  margin: 0 10px 20px;
+}
+
+.hide {
+  display: none;
+}
+.flexi{
+  display: flex;
+}
+
+.start-btn, .next-btn {
+  font-size: 1rem;
+  padding: 5px 5px;
+}
+.btn-score{
+  border: 3px solid;
+  border-radius: 10px;
+  border-color: red;
+  color: black;
+}
+.start-btn:hover{
+  color: #9AD043;
+}
+#quizArea{
+  box-sizing: border-box;
+  font-family:'Montserrat', sans-serif;
+  --hue: var(--hue-neutral);
+  padding: 0;
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(var(--hue), 100%, 20%);
+  text-align: center;
+  font-size: 2rem;
+}
+:root {
+  --hue-neutral: 194;
+  --hue-wrong: 0;
+  --hue-correct: 145;
+}
+#quizArea.correct {
+  --hue: var(--hue-correct);
+}
+
+#quizArea.wrong {
+  --hue: var(--hue-wrong);
+}
+#question-container {
+  width: 1200px;
+  max-width: 90%;
+  background-color: white;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0 0 10px 2px;
+}
+.btn-grid {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.btn-question {
+  --hue: var(--hue-neutral);
+  border: 1px solid hsl(var(--hue), 100%, 30%);
+  background-color: hsl(var(--hue), 100%, 50%);
+  border-radius: 5px;
+  padding: 5px 10px;
+  color: white;
+  outline: none;
+  font-size: 1.5rem;
+}
+
+.btn-question:hover {
+  border-color: black;
+}
+
+.btn-question.correct {
+  --hue: var(--hue-correct);
+  color: black;
+}
+
+.btn-question.wrong {
+  --hue: var(--hue-wrong);
+}
+.controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#question{
+  padding-bottom: 10px;
+}
+.no-click {
+  pointer-events: none;
+}
+.row-question{
+  padding-bottom: 20px;
+}
+
+/* Media Query Stuff */
+@media (max-width:1140px){
+  #title{
+    text-align: center;
+  }
+}
