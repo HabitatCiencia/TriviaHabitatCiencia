@@ -304,7 +304,7 @@ const questionsG3=
 [
 {
 category: 'Generales.',
-question: 'Es una sensación estomacal que sientes cuando ves a tu pareja, estás nervioso (en medicina es denominada como el "deber de zacear tu hambre',
+question: 'Es una sensación estomacal que sientes cuando ves a tu pareja, estás nervioso (en medicina es denominada como el "deber de saciar tu hambre"',
 difficulty: '3',
 answers: [
 { text: 'A) Verdadero', correct: true },
@@ -681,8 +681,8 @@ category: 'Matemáticas',
 question: '¿Un cono se puede expresar con una función escalar con solo una constante en coordenadas esféricas?',
 difficulty: '2',
 answers: [
-{ text: 'A) "Sí"', correct: true },
-{ text: 'B) "No"', correct: false },
+{ text: 'A) Sí', correct: true },
+{ text: 'B) No', correct: false },
 ]
 },
 {
