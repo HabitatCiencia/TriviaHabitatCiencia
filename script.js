@@ -252,105 +252,81 @@ function clearStatusClass(element) {
 }
 
 // #FF0000                     Generales
-
 const questionsG1=
 [
-// #FF0000                   Generales
 {
-category: 'Generales',
-question: 'Es conocido como el padre del psicoanálisis',
-difficulty:'1',
+category: 'Generales.',
+question: 'Menciona al menos 2 sustancias que se segregan en el cerebro al estar enamorado.',
+difficulty: '1',
 answers: [
-{ text: 'A) Sigmund Freud', correct: true },
-{ text: 'B) Pasteur', correct: false },
-{ text: 'C) Whilhem Wundt', correct: false },
-{ text: 'D) Moore', correct: false }
+{ text: 'A) Totalmente correcto', correct: true },
+{ text: 'B) No es así del todo :(', correct: false }
 ]
 },
 {
-category: 'Generales',
-question: '¿A que se debe que en nuestro planeta hay meses que son más frios?',
-difficulty:'1',
+category: 'Generales.',
+question: 'Estos animales se caracterizan por ser muy fieles cuando encuentran una pareja.',
+difficulty: '1',
 answers: [
-{ text: 'A) A las estaciones del año.', correct: false },
-{ text: 'B) El invierno sucede cuando, la tierra está en el perihelio de su orbita hacia el sol, es decir en su punto más alejado.', correct: false },
-{ text: "C) El invierno sucede cuando, la tierra está en el afelio de su orbita hacia el sol, es decir en su punto más alejado.", correct: false },
-{ text: 'D) Debido a la inclinación del eje terrestre.', correct:true}
+{ text: 'A) Pingüinos', correct: true },
+{ text: 'B) Ser humano', correct: false },
+{ text: 'C) Gatos', correct: false },
+{ text: 'D) Osos', correct: false },
 ]
 }
 ];
+
 const questionsG2=
 [
-// #FF0000                   Generales Check
 {
-category: 'Generales',
-question: ' ¿Cuáles son los cinco tipos de sabores primarios?',
-difficulty:'2',
+category: 'Generales.',
+question: '¿Cuántos músculos de la cara se utilizan al besar?',
+difficulty: '2',
 answers: [
-{ text: 'A) Totalmente correcto', correct: true },
-{ text: 'B) No es así del todo :(', correct: false }
+{ text: 'A) Aproximadamente 168 músculos', correct: false },
+{ text: 'B) Aproximadamente 68 músculos', correct: false },
+{ text: 'C) Aproximadamente 34 músculos', correct: true },
+{ text: 'D) Aproximadamente 134 músculos', correct: false },
 ]
 },
 {
-category: 'Generales',
-question: '¿Qué función tiene el Flúor en una pasta dental?',
-difficulty:'2',
+category: 'Generales.',
+question: 'Según el antropólogo Robin Dunbar,el número máximo de relaciones personales que somos capaces de tolerar son tan solo 50.',
+difficulty: '2',
 answers: [
-{ text: 'A) Totalmente correcto', correct: true },
-{ text: 'B) No es así del todo :(', correct: false }
-]
-},
-{
-category: 'Generales',
-question: '¿Cuál es la diferencia entre una charla de ciencia y una charla de divulgación científica? (Pregunta abierta)',
-difficulty:'2',
-answers: [
-  { text: 'A) Totalmente correcto', correct: true },
-  { text: 'B) No es así del todo :(', correct: false }
+{ text: 'A) Verdadero', correct: true },
+{ text: 'B) Falso', correct: false }
 ]
 }
 ];
 
 const questionsG3=
 [
-// #FF0000                  Generales
 {
-category: 'Generales',
-question: '¿Qué enfermedad padeció Stephen Hawking?',
-difficulty:'3',
+category: 'Generales.',
+question: 'Es una sensación estomacal que sientes cuando ves a tu pareja, estás nervioso (en medicina es denominada como el "deber de zacear tu hambre',
+difficulty: '3',
+answers: [
+{ text: 'A) Verdadero', correct: true },
+{ text: 'B) Falso', correct: false }
+]
+},
+{
+category: 'Generales.',
+question: '¿Dónde se produce la oxitocina?',
+difficulty: '3',
 answers: [
 { text: 'A) Totalmente correcto', correct: true },
 { text: 'B) No es así del todo :(', correct: false }
 ]
-},
-{
-category: 'Generales',
-question: '¿Quién desarolló la primer vacuna en la Historia?',
-difficulty:'3',
-answers: [
-{ text: 'A) Robert Koch', correct: false },
-{ text: 'B) Louis Pasteur', correct: false },
-{ text: 'C) Edward Jenner', correct: true },
-{ text: 'D) Mendel', correct: false }
-]
 }
+
 ];
 
 
 // #FF0000                   Publicaciones    Check
 const questionsP1=
 [
-{
-category: 'Publicaciones',
-question: 'Son ejemplos de células',
-difficulty:'1',
-answers: [
-{ text: 'A) Neuronas, espermatozoides y óvulos', correct: true },
-{ text: 'B) Proteínas, carbohidratos y Vitaminas', correct: false },
-{ text: 'C) Estrógenos, dopamina y melatonina', correct: false },
-{ text: 'D) E.coli, Enterobacter aerogenes y Salmonella typhi', correct: false }
-]
-},
 {
 category: 'Publicaciones',
 question: '¿Qué elementos descubrieron Marie y Pierre Curie?',
@@ -364,66 +340,11 @@ answers: [
 },
 {
 category: 'Publicaciones',
-question: 'Marie Curie ganó dos veces el premio Nobel, ¿en qué disciplinas?',
+question: '¿Cuál fue el primer antibiótico?',
 difficulty:'1',
 answers: [
-{ text: 'A) Ambos en física', correct: false },
-{ text: 'B) En Física y Química', correct: true },
-{ text: 'C) En Química y Medicina', correct: false },
-{ text: 'D) En Física y Matemáticas', correct:false}
-]
-},
-{
-category: 'Publicaciones',
-question: 'Menciona el nombre de un astronauta hispano de la NASA',
-difficulty:'1',
-answers: [
-{ text: 'A) Totalmente correcto', correct: true },
-{ text: 'B) No es así del todo :(', correct: false }
-]
-},
-{
-category: 'Publicaciones',
-question: 'El genoma de un ajolote en longitud es…',
-difficulty:'1',
-answers: [
-{ text: 'A) 10 veces más largo que el del ser humano', correct: false },
-{ text: 'B) Una decima parte del genoma del ser humano', correct: false },
-{ text: 'C) Igual al del ser humano', correct: false },
-{ text: 'D) Pí veces la del ser humano', correct:false}
-]
-},
-{
-category: 'Publicaciones',
-question: '¿Cuántos pares de bases tiene aproximadamente el genoma humano?',
-difficulty:'1',
-answers: [
-{ text: 'A) 3,000,000', correct: false },
-{ text: 'B) 30,000,000', correct: false },
-{ text: 'C) 300,000,000', correct: false },
-{ text: 'D) 3,000,000,000', correct:true}
-]
-},
-{
-category: 'Publicaciones',
-question: 'El viagra fue formulado inicialmente para tratar:',
-difficulty:'1',
-answers: [
-{ text: 'A) Colesterol', correct: false },
-{ text: 'B) Asma', correct: false },
-{ text: 'C) Hipertensión', correct: true },
-{ text: 'D) Disfunción erectil', correct:false}
-]
-},
-{
-category: 'Publicaciones',
-question: 'Nombre de la canción de los Bee Gees que tiene el ritmo adecuado para realizar un RCP (103 latidos por minuto)',
-difficulty:'1',
-answers: [
-{ text: 'A) How deep is your love', correct: false },
-{ text: 'B) Too much heaven', correct: false },
-{ text: "C) Stayin' alive", correct: true },
-{ text: 'D) To love somebody', correct:false}
+{ text: 'A) Verdadero', correct: true },
+{ text: 'B) Falso', correct: false }
 ]
 }
 ];
@@ -432,40 +353,22 @@ const questionsP2=
 [
 {
 category: 'Publicaciones',
-question: 'Corresponde a la sucesión de Fibonacci:',
-difficulty:'2',
+question: '¿Cómo se le denomina al conjunto de bacterias que habitan en la piel y mucosas del cuerpo humano?',
+difficulty:'1',
 answers: [
-{ text: 'A) 1, 2, 4, 8, 16, 32, 64…', correct: false },
-{ text: 'B) 1, 3, 6, 10, 15, 21, 28…', correct: false },
-{ text: 'C) 0, 1, 1, 2, 3, 5, 8, 13…', correct: true },
-{ text: 'D) 1, 4, 9, 16, 25, 36, 49…', correct: false }
+{ text: 'A) Verdadero', correct: true },
+{ text: 'B) Falso', correct: false }
 ]
 },
 {
 category: 'Publicaciones',
-question: '¿Cómo se construye la serie de Fibonacci?, además menciona un elemento natural o creación del ser humano donde podamos encontrarlos. (Pregunta abierta)',
-difficulty:'2',
+question: 'Es la hormona causante de nuestra reacción al ver o interactuar con la persona que nos gusta. Provoca, por ejemplo, que el corazón se acelere, la boca se seque y las manos comiencen a sudar: ',
+difficulty:'1',
 answers: [
-  { text: 'A) Totalmente correcto', correct: true },
-  { text: 'B) No es así del todo :(', correct: false }
-]
-},
-{
-category: 'Publicaciones',
-question: '¿Qué es la biomimética?, además menciona alguna aplicación de esta. (Pregunta abierta)',
-difficulty:'2',
-answers: [
-  { text: 'A) Totalmente correcto', correct: true },
-  { text: 'B) No es así del todo :(', correct: false }
-]
-},
-{
-category: 'Publicaciones',
-question: 'Menciona el nombre de tres coronavirus capaces de afectar a humanos. (Pregunta abierta)',
-difficulty:'2',
-answers: [
-{ text: 'A) Totalmente correcto', correct: true },
-{ text: 'B) No es así del todo :(', correct: false }
+{ text: 'A) Leptina', correct: false },
+{ text: 'B) Glucagón', correct: false },
+{ text: 'C) Adrenalina', correct: true },
+{ text: 'D) Aldosterona', correct: false }
 ]
 }
 ];
@@ -474,20 +377,22 @@ const questionsP3=
 [
 {
 category: 'Publicaciones',
-question: '¿Por qué existe polémica en cuanto a que si los virus están vivos o no? (Pregunta abierta)',
+question: '¿Cuál de las siguientes NO es una causa de resistencia a antibióticos? ',
 difficulty:'3',
 answers: [
-{ text: 'A) Totalmente correcto', correct: true },
-{ text: 'B) No es así del todo :(', correct: false }
+{ text: 'A) Dejar a medias un tratamiento con antibióticos.', correct: false },
+{ text: 'B) Consumir alimentos transgénicos.', correct: true },
+{ text: 'C) Automedicación ', correct: false },
+{ text: 'D) Comerciar antibióticos falsificados y de mala calidad.', correct: false }
 ]
 },
 {
 category: 'Publicaciones',
-question: 'En células eucariotas el ADN tiene que salir del núcleo para sintetizar las proteínas',
+question: '¿Qué tienen en común el amor y las drogas?',
 difficulty:'3',
 answers: [
-{ text: 'A) Verdadero', correct: false },
-{ text: 'B) Falso', correct: true }
+{ text: 'A) Verdadero', correct: true },
+{ text: 'B) Falso', correct: false }
 ]
 }
 ];
@@ -497,46 +402,24 @@ const questionsC1=
 [
 {
 category: 'Química',
-question: '¿Cuáles son los elementos halógenos?',
-difficulty:'1',
+question: '¿Cuál de estos elementos es considerado como un halógeno?',
+difficulty: '1',
 answers: [
-{ text: 'A) He, Ne, Xe, Ar', correct: false },
-{ text: 'B) Au, Cu, Ag, Fe', correct: false },
-{ text: 'C) C, H, O, N', correct: false },
-{ text: 'D) Cl, Br, I, F', correct: true}
+{ text: 'A) Yodo', correct: true },
+{ text: 'B) Oxígeno', correct: false },
+{ text: 'C) Carbón', correct: false },
+{ text: 'D) Potasio', correct: false }
 ]
 },
 {
 category: 'Química',
-question: '¿Cuál fue la primera reacción química controlada por los humanos? ',
-difficulty:'1',
+question: '¿Cuál de estos se conoce como el elemento más electronegativo de la tabla periódica?',
+difficulty: '1',
 answers: [
-{ text: 'A) REDOX', correct: false },
-{ text: 'B) Combustión', correct: true },
-{ text: 'C) Neutralización', correct: false },
-{ text: 'D) Nucleares', correct:false}
-]
-},
-{
-category: 'Química',
-question: '¿En qué estado de la materia se observa tensión superficial?',
-difficulty:'1',
-answers: [
-{ text: 'A) Sólido', correct: false },
-{ text: 'B) Líquido', correct: true },
-{ text: 'C) Gaseoso', correct: false },
-{ text: 'D) Plasma', correct:false}
-]
-},
-{
-category: 'Química',
-question: '¿Los átomos del mismo elemento químico que tienen diferente masa atómica se conocen como?',
-difficulty:'1',
-answers: [
-{ text: 'A) Isómero', correct: false },
-{ text: 'B) Isótropo', correct: false },
-{ text: 'C) Isósceles', correct: false },
-{ text: 'D) Isótopo', correct: true}
+{ text: 'A) Flúor', correct: true },
+{ text: 'B) Cloro', correct: false },
+{ text: 'C) Yodo', correct: false },
+{ text: 'D) Nitrógeno', correct: false }
 ]
 }
 ];
@@ -545,22 +428,35 @@ const questionsC2=
 [
 {
 category: 'Química',
-question: '¿Cuál es el sistema de clasificación de los elementos químicos según su número atómico?',
-difficulty:'2',
+question: '¿Cuál de las siguientes sustancias tiene mayor punto de fusión?',
+difficulty: '2',
 answers: [
-{ text: 'A) Tabla de Electronegatividad', correct: false },
-{ text: 'B) Números cuánticos', correct: false },
-{ text: 'C) Tabla periodica', correct: true },
-{ text: 'D) Escala de pH', correct:false}
+{ text: 'A) CH4', correct: false },
+{ text: 'B) KBr', correct: true },
+{ text: 'C) I2', correct: false },
+{ text: 'D) HCl', correct: false }
 ]
 },
 {
 category: 'Química',
-question: '¿Para que se destilan algunas bebidas alcoholicas? (Pregunta abierta)',
-difficulty:'2',
+question: 'El compuesto Nitrato de Sodio (NaNO3) es muy soluble en:',
+difficulty: '2',
 answers: [
-  { text: 'A) Totalmente correcto', correct: true },
-  { text: 'B) No es así del todo :(', correct: false }
+{ text: 'A) Sulfuro de carbono', correct: false },
+{ text: 'B) Etanol', correct: false },
+{ text: 'C) Agua', correct: true },
+{ text: 'D) Ninguna de las anteriores', correct: false }
+]
+},
+{
+category: 'Química',
+question: 'De los siguientes compuestos, ¿cuál de ellos es iónico?',
+difficulty: '2',
+answers: [
+{ text: 'A) Amoniaco', correct: false },
+{ text: 'B) Dióxido de carbono', correct: false },
+{ text: 'C) Óxido de sodio', correct: true },
+{ text: 'D) Metano', correct: false }
 ]
 }
 ];
@@ -569,31 +465,22 @@ const questionsC3=
 [
 {
 category: 'Química',
-question: '¿Por qué el jabón es usado para desinfectar las manos?',
-difficulty:'3',
+question: 'Se sabe que el nitrato de plata es soluble en agua, explica a qué se debe esto.',
+difficulty: '3',
 answers: [
-{ text: 'A) El jabón, gracias a sus propiedades rompe la tensión superficial del agua, y hace que los gérmenes se resbalen de la piel.', correct: false },
-{ text: 'B) Las micelas del jabón encapsulan a los gérmenes debido a que las colas hidrofóbicas interactúan con los gérmenes, las cabezas intentan evitar al agua, dentro de las micelas se disuelven los gérmenes.', correct: false },
-{ text: "C) Las micelas del jabón interactúan con los gérmenes de nuestra piel, las colas hidrófobas de las moléculas del jabón se adhieren a los lípidos de la membrana y la abren a la fuerza, el agua entra y hace explotar a los gérmenes y bacterias.", correct: true },
-{ text: 'D) Por su viscosidad, el jabón atrapa a los gérmenes, con ayuda del agua se deslizan de la piel, quedando atrapados en el jabón.', correct:false}
+{ text: 'A) Totalmente correcto', correct: true },
+{ text: 'B) No es así del todo :(', correct: false }
 ]
 },
 {
 category: 'Química',
-question: 'Calcular los gramos de hidróxido de sodio (NaOH) de 350 ml de disolución 2 M. (Pregunta abierta)',
-difficulty:'3',
+question: '¿Qué compuesto de los siguientes contiene todos sus átomos de carbono con una hibridación sp^2?',
+difficulty: '3',
 answers: [
-  { text: 'A) Totalmente correcto', correct: true },
-  { text: 'B) No es así del todo :(', correct: false }
-]
-},
-{
-category: 'Química',
-question: 'Calcular los gramos de HCl que se requieren para preparar 500 ml de solución 0,5 M. (Pregunta abierta)',
-difficulty:'3',
-answers: [
-  { text: 'A) Totalmente correcto', correct: true },
-  { text: 'B) No es así del todo :(', correct: false }
+{ text: 'A) C2H2', correct: false },
+{ text: 'B) C4H10', correct: false },
+{ text: 'C) C3H8', correct: false },
+{ text: 'D) C2H4', correct: true }
 ]
 }
 ];
@@ -603,35 +490,24 @@ const questionsB1=
 [
 {
 category: 'Biología',
-question: '¿Cuál de las siguientes oraciones se refiere a la selección natural?',
-difficulty:'1',
+question: '¿Cuál de los siguientes animales no es un polinizador?',
+difficulty: '1',
 answers: [
-{ text: 'A) Los organismos mutan para adaptarse a un ambiente cambiante.', correct: false },
-{ text: 'B) Los organismos mutan al azar y si esta mutación favorece su supervivencia habrá mas descendientes que hereden esta mutación, hasta llegar a la evolución de la especie.', correct: true },
-{ text: "C) Cuando todos los organismos de una especie mutan de la misma forma y al mismo tiempo, se dice que evolucionaron.", correct: false },
-{ text: 'D) Sobrevive la especie más inteligente, el que entienda más la naturaleza', correct:false}
+{ text: 'A) Abejas. ', correct: false },
+{ text: 'B) Arañeros. ', correct: false },
+{ text: 'C) Moscas.', correct: false },
+{ text: 'D) Todos los anteriores son polinizadores.', correct: true }
 ]
 },
 {
 category: 'Biología',
-question: '¿Cuál de los siguientes casos es un ejemplo de ingeniería genética?',
-difficulty:'1',
+question: '¿Cómo se llaman los vasos diminutos que conectan las arterias con las venas?',
+difficulty: '1',
 answers: [
-{ text: 'A) Unir la raíz de un tipo de planta al tallo de otro tipo de planta.', correct: false },
-{ text: 'B) Encontrar las secuencias de las bases del ADN de un planta.', correct: false },
-{ text: "C) Insertar un gen en plantas que las hace resistentes a los insectos.", correct: true },
-{ text: 'D) Cultivar una planta a partir de una sola célula.', correct:false}
-]
-},
-{
-category: 'Biología',
-question: '¿En qué partes de las células eucariotas encontramos ADN?',
-difficulty:'1',
-answers: [
-{ text: 'A) En el núcleo y las vacuolas.', correct: false },
-{ text: 'B) En el núcleo y las mitocondrias.', correct: true },
-{ text: "C) En el núcleo y los lisosomas.", correct: false },
-{ text: 'D) Solamente en el núcleo.', correct: false}
+{ text: 'A) Vacuolas. ', correct: false },
+{ text: 'B) Capilares. ', correct: true },
+{ text: 'C) Centriolos.', correct: false },
+{ text: 'D) Arteriolos.', correct: false }
 ]
 }
 ];
@@ -640,70 +516,60 @@ const questionsB2=
 [
 {
 category: 'Biología',
-question: 'Es la célula del tejido muscular: ',
-difficulty:'2',
+question: '¿Cuál es el proceso evolutivo que propuso Charles Darwin en su libro "El Origen De Las Especies?',
+difficulty: '2',
 answers: [
-{ text: 'A) Fibroblastos.', correct: false },
-{ text: 'B) Adipocitos.', correct: false },
-{ text: "C) Miocitos .", correct: true },
-{ text: 'D) Neumocitos.', correct: false}
+{ text: 'A) Selección natural', correct: true },
+{ text: 'B) Evolución saltacionista', correct: false },
+{ text: 'C) Creacionista', correct: false },
+{ text: 'D) Selección sexual', correct: false }
 ]
 },
 {
 category: 'Biología',
-question: ' Son células presentes en la piel: ',
-difficulty:'2',
+question: 'Son los 5 tipos de reinos de la naturaleza...',
+difficulty: '2',
 answers: [
-{ text: 'A) Fibroblastos.', correct: false },
-{ text: 'B) Queratinocitos.', correct: true },
-{ text: "C) Miocitos .", correct: false },
-{ text: 'D) Neumocitos.', correct: false}
-]
-},
-{
-category: 'Biología',
-question: ' ¿Qué proteínas forman filamentos musculares? ',
-difficulty:'2',
-answers: [
-{ text: 'A) Colágeno e Insulina.', correct: false },
-{ text: 'B) Colágeno y actina.', correct: false },
-{ text: "C) Colágeno y Albúmina.", correct: false },
-{ text: 'D) Actina y miosina.', correct: true}
+{ text: 'A) Totalmente correcto', correct: true },
+{ text: 'B) No es así del todo :(', correct: false }
 ]
 }
+
 ];
 
 const questionsB3=
 [
 {
 category: 'Biología',
-question: '¿Cuántos puentes de hidrogeno se forman entre Adenina y Timina?',
-difficulty:'3',
+question: '¿Cuál es el concepto que introduce James Hutton?',
+difficulty: '3',
 answers: [
-{ text: 'A) Uno.', correct: false },
-{ text: 'B) Dos.', correct: true },
-{ text: "C) Tres.", correct: false },
-{ text: 'D) Cuatro.', correct: false}
+{ text: 'A) Tiempo profundo', correct: true },
+{ text: 'B) Deriva génica', correct: false },
+{ text: 'C) Gradualismo', correct: false },
+{ text: 'D) Evolución', correct: false }
 ]
 },
 {
 category: 'Biología',
-question: 'El cuerpo humano de un adulto posee ______ de células',
-difficulty:'3',
+question: '¿Cuál es la forma correcta de expresar la relación entre el ADN de humanos y chimpancés?',
+difficulty: '3',
 answers: [
-{ text: 'A) 50 mil billones ', correct: false },
-{ text: 'B) 1000 mil billones ', correct: false },
-{ text: "C) 80 mil billones ", correct: false },
-{ text: 'D) 100 mil billones', correct: true}
+{ text: 'A) Entre el humano y el chimpancé la secuencia de ADN que puede compararse directamente es idéntica en un 99%. ', correct: true },
+{ text: 'B) El ADN del chimpancé y del humano son idénticos en un 99%.', correct: false },
+{ text: 'C) Entre el humano y el chimpancé la secuencia de ADN que puede compararse directamente es idéntica en un 79%. ', correct: false },
+{ text: 'D) El ADN del chimpancé y del humano son idénticos en un 79%.', correct: false }
 ]
 },
 {
 category: 'Biología',
-question: 'Menciona al menos 7 estructuras que componen a una célula eucariota. (Pregunta abierta)',
-difficulty:'3',
+question: 'También llamados osos de agua, son animales microscópicos, multicelulares y una de las formas de vida más duraderas en el planeta Tierra. ',
+difficulty: '3',
 answers: [
-  { text: 'A) Totalmente correcto', correct: true },
-  { text: 'B) No es así del todo :(', correct: false }
+{ text: 'A) Tardígrados', correct: true },
+{ text: 'B) Escherichia coli', correct: false },
+{ text: 'C) Protozoos', correct: false },
+{ text: 'D) Coronavirus', correct: false }
 ]
 }
 ];
@@ -714,52 +580,30 @@ const questionsPhy1=
 [
 {
 category: 'Física',
-question: 'Podemos interpretarlo como el principio de conservación de la energía aplicado a un fluido moviéndose a lo largo de una línea de corriente',
+question: '¿Qué físico es famoso por la leyenda que dice que al realizar un descubrimiento salió desnudo a la calle gritando "Eureka"? ',
 difficulty:'1',
 answers: [
-{ text: 'A) Principio de ArquÍmedes', correct: false },
-{ text: 'B) Principio de Torricelli', correct: false },
-{ text: 'C) Principio de conservación de la energía en fluido', correct: false },
-{ text: 'D) Principio de Bernoulli', correct: true }
+{ text: 'A) Newton', correct: false },
+{ text: 'B) Pitágoras', correct: false },
+{ text: 'C) Arquímedes', correct: true },
+{ text: 'D) Boltzmann', correct: false }
 ]
 },
 {
 category: 'Física',
-question: '¿A que se debe el color azul del cielo y blanco de las nubes ? ',
+question: '¿Cuál de las siguientes es una magnitud vectorial? ',
 difficulty:'1',
 answers: [
-{ text: 'A) A la dispersión de London', correct: false },
-{ text: 'B) No se puede saber', correct: false },
-{ text: 'C) A la dispersión de la luz conocido como fenómeno de refracción', correct: true },
-{ text: 'D) Al reflejo del mar', correct: false }
-]
-},
-{
-category: 'Física',
-question: '¿Cuánto volumen ocupan 8 Kg de un líquido cuya densidad es de 2 Kg/L?',
-difficulty:'1',
-answers: [
-{ text: 'A) 0,2 L', correct: false },
-{ text: 'B) 2 L', correct: false },
-{ text: 'C) 4 L ', correct: true },
-{ text: 'D) 1/4 L ', correct: false }
+{ text: 'A) Peso', correct: true },
+{ text: 'B) Temperatura', correct: false },
+{ text: 'C) Carga', correct: false },
+{ text: 'D) Masa', correct: false }
 ]
 }
 ];
 
 const questionsPhy2=
 [
-{
-category: 'Física',
-question: '¿Que es el momento lineal?',
-difficulty:'2',
-answers: [
-{ text: 'A)tiempo que viaja un objeto en línea recta', correct: false },
-{ text: 'B)cantidad vectorial que determina cuánto movimiento tiene un sistema', correct: true },
-{ text: 'C) El momento en el que un objeto cambia su trayectoria a una lineal ', correct: false },
-{ text: 'D)  Es la cantidad física escalar que determina cuanto movimiento tiene un sistema ', correct: false }
-]
-},
 {
 category: 'Física',
 question: 'Lanzo una pelota a 10km/h en parábola desde mi mano a un metro del suelo (no hay rozamiento). ¿Qué velocidad lleva cuando cae a esa misma altura? ',
@@ -770,6 +614,17 @@ answers: [
 { text: 'C) 0 Km/h', correct: false },
 { text: 'D) 20 Km/ h', correct: false }
 ]
+},
+{
+category: 'Física',
+question: '¿A quién se le atribuye el término "agujero negro"?',
+difficulty: '2',
+answers: [
+{ text: 'A) John Wheeler ', correct: true },
+{ text: 'B) Stephen Hawking ', correct: false },
+{ text: 'C) Albert Einstein', correct: false },
+{ text: 'D) Robert Oppenheimer ', correct: false }
+]
 }
 ];
 
@@ -777,8 +632,8 @@ const questionsPhy3=
 [
 {
 category: 'Física',
-question: 'Explica con física ¿Qué son los colores? (Pregunta abierta)',
-difficulty:'3',
+question: '¿Cuántas ecuaciones de Maxwell hay y cuántas formas tienen?',
+difficulty: '3',
 answers: [
 { text: 'A) Totalmente correcto', correct: true },
 { text: 'B) No es así del todo :(', correct: false }
@@ -786,8 +641,8 @@ answers: [
 },
 {
 category: 'Física',
-question: '¿Qué es la “muerte térmica" del universo? (Pregunta abierta)',
-difficulty:'3',
+question: 'Si un campo vectorial actúa como f(x,y) = xi+ yj, ¿podemos asegurar que este es un campo conservativo? (existe una única función potencial bien definida asociada a f)',
+difficulty: '3',
 answers: [
 { text: 'A) Totalmente correcto', correct: true },
 { text: 'B) No es así del todo :(', correct: false }
@@ -800,93 +655,73 @@ answers: [
 const questionsM1=
 [
 {
-category: 'Matematicas',
-question: 'Resuelve la siguiente operación: 3[8(10-8/2+2)]',
-difficulty:'1',
+category: 'Matemáticas',
+question: '¿Quién inventó el plano cartesiano?',
+difficulty: '1',
 answers: [
-{ text: 'A) 72', correct: false },
-{ text: 'B) 96', correct: false },
-{ text: 'C) 129', correct: false },
-{ text: 'D) 192 ', correct: true }
+{ text: 'A) Totalmente correcto', correct: true },
+{ text: 'B) No es así del todo :(', correct: false }
 ]
 },
 {
-category: 'Matematicas',
-question: '¿Cuál es el valor de x en la siguiente ecuación? x-8x=-22+8',
-difficulty:'1',
+category: 'Matemáticas',
+question: '¿Cuáles son los dos matemáticos a los que se les atribuye el descubrimiento/invención del Cálculo?',
+difficulty: '1',
 answers: [
-{ text: 'A) 2', correct: true },
-{ text: 'B) 7', correct: false },
-{ text: 'C) -2', correct: false },
-{ text: 'D) -7', correct: false }
+{ text: 'A) Totalmente correcto', correct: true },
+{ text: 'B) No es así del todo :(', correct: false }
 ]
 }
 ];
 
 const questionsM2=
 [
-  {
-  category: 'Matemáticas',
-  question: '¿Qué son los números imaginarios? (Pregunta abierta)',
-  difficulty:'2',
-  answers: [
-  { text: 'A) Totalmente correcto', correct: true },
-  { text: 'B) No es así del todo :(', correct: false }
-  ]
-  },
-  {
-  category: 'Matematicas',
-  question: 'La expresión: x²-8x+16 puede factorizarse como:',
-  difficulty:'2',
-  answers: [
-  { text: 'A) (x+4)(x-4)', correct: false },
-  { text: 'B) (x-2) (x+4)', correct: false },
-  { text: 'C) (x-4)(x-4)', correct: true },
-  { text: 'D) (x+4)²', correct: false }
-  ]
-  },
-  {
-  category: 'Matemáticas',
-  question: '¿Qué son los números complejos? (Pregunta abierta)',
-  difficulty:'2',
-  answers: [
-  { text: 'A) Totalmente correcto', correct: true },
-  { text: 'B) No es así del todo :(', correct: false }
-  ]
+{
+category: 'Matemáticas',
+question: '¿Un cono se puede expresar con una función escalar con solo una constante en coordenadas esféricas?',
+difficulty: '2',
+answers: [
+{ text: 'A) "Sí"', correct: true },
+{ text: 'B) "No"', correct: false },
+]
 },
 {
 category: 'Matemáticas',
-question: 'Con respecto al producto entre matrices, ¿Se cumple la propiedad conmutativa?',
-difficulty:'2',
+question: 'El último año en el que pudimos tomar clases de manera presencial fue el 2019, todos pensamos en este año con nostalgia, ¿sabes cómo se escribe 2019 en binario?',
+difficulty: '2',
 answers: [
-{ text: 'A) Sí', correct: false },
-{ text: 'B) No', correct: true }
+{ text: 'A) 11111100110', correct: false },
+{ text: 'B) 11111100011', correct: true },
+{ text: 'C) 111111000110', correct: false },
+{ text: 'D) 111111000011', correct: false }
 ]
-}
+},
+{
+category: 'Matemáticas',
+question: 'Considera una función polinómica definida por f(x)=x^n+x^m+x^o, con n>m>o. ¿Cuál es la n+1 ésima derivada de f?',
+difficulty: '2',
+answers: [
+{ text: 'A) Totalmente correcto', correct: true },
+{ text: 'B) No es así del todo :(', correct: false }
+]
+},
+
+
 ];
 const questionsM3=
 [
 {
 category: 'Matemáticas',
-question: '¿Si pensamos en dos puntos en el plano, P1 y P2, los cuales pertenecen a una función f(x), y en una recta secante que pasa por ambos puntos, cuándo podemos decir que la pendiente en P1 es igual a esta secante? (Pregunta abierta)',
+question: '¿De manera simple, qué representa el gradiente de una función escalar?',
 difficulty:'3',
 answers: [
 { text: 'A) Totalmente correcto', correct: true },
-{ text: 'B) No es así del todo :(', correct: false }
+{ text: 'B) No es así del todo :(', correct: false}
 ]
 },
 {
 category: 'Matemáticas',
-question: '¿Qué es el efecto mariposa? (Pregunta abierta)',
-difficulty:'3',
-answers: [
-{ text: 'A) Totalmente correcto', correct: true },
-{ text: 'B) No es así del todo :(', correct: false }
-]
-},
-{
-category: 'Matemáticas',
-question: '¿Qué definición de la integral es más general, la formulada por Riemann o la de Lebesgue? (Pregunta abierta)',
+question: '¿Qué definición de la integral es más general, la formulada por Riemann o la de Lebesgue?',
 difficulty:'3',
 answers: [
 { text: 'A) Totalmente correcto', correct: true },
@@ -898,80 +733,79 @@ answers: [
 // #FF0000                Medicina o Cuerpo Humano  Check
 const questionsMed1=
 [
-  {
-    category: 'Cuerpo Humano',
-    question: 'Son síntomas comunes de Covid-19',
-    difficulty:'1',
-    answers: [
-      { text: 'A) Incapacidad para moverse, diarrea', correct: false },
-      { text: 'B) Conjuntivitis y erupciones cutáneas', correct: false },
-      { text: 'C) Fiebre, tos seca, delirio', correct: false },
-      { text: 'D) Dolor de garganta, pérdida del olfato', correct: true }
-    ]
-  },
- {
-  category: 'Cuerpo Humano',
-  question: 'Es la unidad estructural del sistema nervioso',
-  difficulty:'1',
-  answers: [
-    { text: 'A) Sinapsis', correct: false },
-    { text: 'B) Neuronas', correct: true },
-    { text: 'C) Cerebro', correct: false },
-    { text: 'D) Células de Glia', correct: false }
-  ]
+{
+category: 'Medicina',
+question: '¿Cuántas costillas tiene el ser humano?',
+difficulty: '1',
+answers: [
+{ text: 'A) Totalmente correcto', correct: true },
+{ text: 'B) No es así del todo :(', correct: false }
+]
 },
+{
+category: 'Medicina',
+question: 'Describe qué significa el término "narcosis"',
+difficulty: '1',
+answers: [
+{ text: 'A) Totalmente correcto', correct: true },
+{ text: 'B) No es así del todo :(', correct: false }
+]
+}
 ];
 
 const questionsMed2=
 [
-  {
-    category: 'Cuerpo Humano',
-    question: 'Es el órgano más grande del cuerpo humano',
-    difficulty:'2',
-    answers: [
-      { text: 'A) Hígado', correct: false },
-      { text: 'B) Cerebro', correct: false },
-      { text: 'C) Piel', correct: true },
-      { text: 'D) Corazón', correct: false}
-    ]
-  },
-  {
-  category: 'Cuerpo Humano',
-  question: 'De los siguientes pares craneales, elige cual es el más desarrollado y extenso con un amplio territorio de distribución',
-  difficulty:'2',
-  answers: [
-    { text: 'A) Trigemino', correct: true },
-    { text: 'B) Abducems', correct: false },
-    { text: 'C) Vestibulococlear', correct: false },
-    { text: 'D) Troclear', correct: false }
-  ]
+{
+category: 'Medicina',
+question: 'Se les denomina así a los hongos que afectan la piel y sus anexos (uñas y pelos), son los que causas onicomicosis, pie de atleta, tiña de la cabeza, etc.',
+difficulty: '2',
+answers: [
+{ text: 'A) Dermatofitos ', correct: true },
+{ text: 'B) Hongos alucinógenos ', correct: false },
+{ text: 'C) Treponema pallidum', correct: false },
+{ text: 'D) Aspergillus flavus ', correct: false }
+]
+},
+{
+category: 'Medicina',
+question: 'Es más comúnmente conocido como el síndrome del corazón roto.',
+difficulty: '2',
+answers: [
+  { text: 'A) Miocardiopatía de Shitsuren ', correct: false },
+  { text: 'B) Miocardiopatía de Sasuke ', correct: false },
+  { text: 'C) Miocardiopatía de Takotsubo', correct: true },
+  { text: 'D) Miocardiopatía de Greenwich ', correct: false }
+]
 }
+
+
 ];
 
 const questionsMed3=
 [
-  {
-    category: 'Cuerpo Humano',
-    question: 'Es conocido por ser el hueso más pequeño del cuerpo humano ',
-    difficulty:'3',
-    answers: [
-      { text: 'A) Martillo', correct: false },
-      { text: 'B) Yunque', correct: false },
-      { text: 'C) Estribo', correct: true },
-      { text: 'D) Calcaneo', correct: false }
-    ]
-  },
-  {
-    category: 'Cuerpo Humano',
-    question: 'El cuerpo consta de una columna vertebral, la cual está dividida en:',
-    difficulty:'3',
-    answers: [
-      { text: 'A) C9, T10, L3, sacro y cóccix', correct: false },
-      { text: 'B) C7, T12, L5, sacro y cóccix', correct: true },
-      { text: 'C) C4, T16, L7, sacro y cóccix', correct: false },
-      { text: 'D) C7, T12, L9, sacro y cóccix', correct: false }
-    ]
-  }
+{
+category: 'Medicina',
+question: 'Es conocido por ser una de las bacterias más comunes causantes de generar infecciones en la garganta, como faringitis.',
+difficulty: '3',
+answers: [
+{ text: 'A) Covid-19', correct: false },
+{ text: 'B) Streptococcus pyogenes', correct: true },
+{ text: 'C) Candida albicans', correct: false },
+{ text: 'D) Aspergillus flavus', correct: false }
+]
+},
+{
+category: 'Medicina',
+question: 'Es la capa germinal (capa embrionaria) que da origen al sistema nervioso ',
+difficulty: '3',
+answers: [
+{ text: 'A) Endodérmica ', correct: false },
+{ text: 'B) Mesodérmica ', correct: false },
+{ text: 'C) Ectodérmica  ', correct: true },
+{ text: 'D) Placenta ', correct: false }
+]
+}
+
 ];
 
 // #FF0000                     Geografía
@@ -979,24 +813,24 @@ const questionsGeo1=
 [
 {
 category: 'Geografía',
-question: '¿Qué país africano no tiene costa?',
+question: '¿Qué es una cordillera? ',
 difficulty:'1',
 answers: [
-{ text: 'A) Chad', correct: true },
-{ text: 'B) Cabo verde', correct: false },
-{ text: "C) Marruecos", correct: false },
-{ text: 'D) Sudafrica', correct:false}
+{ text: 'A) Es un conjunto de montañas dentro de otro conjunto más grande', correct: false },
+{ text: 'B) Es una llanura entre montañas o alturas, una depresión de la superficie terrestre entre dos vertientes, con forma inclinada y alargada, que conforma una cuenca hidrográfica en cuyo fondo se aloja un curso fluvial ', correct: false },
+{ text: 'C) Una sucesión de montañas enlazadas entre sí. Constituyen zonas plegadas o en fase de plegamiento.', correct: true },
+{ text: 'D) Es una gran extensión de tierra plana o con ligeras ondulaciones ', correct: false }
 ]
 },
 {
 category: 'Geografía',
-question: '¿Qué país africano no tiene costa?',
-difficulty:'2',
+question: '¿Cuál es la capa más gruesa de la tierra? ',
+difficulty:'1',
 answers: [
-{ text: 'A) Chad', correct: true },
-{ text: 'B) Cabo verde', correct: false },
-{ text: "C) Marruecos", correct: false },
-{ text: 'D) Sudafrica', correct:false}
+{ text: 'A) Núcleo externo', correct: false },
+{ text: 'B) Núcleo interno ', correct: false },
+{ text: 'C) Corteza ', correct: false },
+{ text: 'D) Manto ', correct: true }
 ]
 }
 ];
@@ -1005,22 +839,24 @@ const questionsGeo2=
 [
 {
 category: 'Geografía',
-question: '¿Qué país africano no tiene costa?',
+question: '¿Cuál de los siguientes países cuenta con mayor costa?',
 difficulty:'2',
 answers: [
-{ text: 'A) Chad', correct: true },
-{ text: 'B) Cabo verde', correct: false },
-{ text: "C) Marruecos", correct: false },
-{ text: 'D) Sudafrica', correct:false}
+{ text: 'A) México', correct: false },
+{ text: 'B) Canadá', correct: true },
+{ text: 'C) Reino unido', correct: false },
+{ text: 'D) España', correct: false }
 ]
 },
 {
 category: 'Geografía',
-question: ' ¿Qué era Pangea',
+question: '¿Dónde tiene lugar el punto más profundo del mar mediterráneo?',
 difficulty:'2',
 answers: [
-{ text: 'A) Totalmente correcto', correct: true },
-{ text: 'B) No es así del todo :(', correct: false }
+{ text: 'A) En la Fosa de las Marinas', correct: false },
+{ text: 'B) En la Fosa de Calipso ', correct: true },
+{ text: 'C) En la Fosa de las sándwich del sur', correct: false },
+{ text: 'D) En la Fosa de Perú-Chile', correct: false }
 ]
 }
 ];
@@ -1029,22 +865,24 @@ const questionsGeo3=
 [
 {
 category: 'Geografía',
-question: ' ¿Qué se supone que pasó con el planeta Tea o Theia? ',
+question: 'Menciona el nombre del estrecho que conecta al océano atlántico con el mar mediterráneo',
 difficulty:'3',
 answers: [
-{ text: 'A) Totalmente correcto', correct: true },
-{ text: 'B) No es así del todo :(', correct: false }
+{ text: 'A) Estrecho de Gibraltar', correct: true },
+{ text: 'B) Estrecho de Mesina', correct: false },
+{ text: 'C) Canal de la Mancha', correct: false },
+{ text: 'D) Estrecho de los Dardanelos', correct: false }
 ]
 },
 {
 category: 'Geografía',
-question: ' En teoría, ¿Qué forma tiene la tierra? ',
-difficulty:'2',
+question: '¿Cuál es el lago más profundo del mundo?',
+difficulty:'3',
 answers: [
-{ text: 'A) Circulo ', correct: false },
-{ text: 'B) Esfera.', correct: false },
-{ text: "C) Elipsoide.", correct: false },
-{ text: 'D) Geoide.', correct: true}
+{ text: 'A) Lago de Cuitzeo', correct: false },
+{ text: 'B) Lago de Pátzcuaro', correct: false },
+{ text: 'C) Lago Hurón ', correct: false },
+{ text: 'D) Lago Baikal', correct: true }
 ]
 }
 ];
