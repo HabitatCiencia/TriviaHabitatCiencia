@@ -151,7 +151,7 @@ function restarter(){
   clock.classList.remove('hide')
   score1=0;
   score2=0;
-  if (counterInRound==6){
+  if (counterInRound==4){
     endOfRound()
   }
 }
